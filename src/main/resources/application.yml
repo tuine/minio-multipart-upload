@@ -1,0 +1,8 @@
+server:
+  port: ${SERVER_PORT:8006}
+
+minio:
+  endpoint: ${MINIO_ENDPOINT:https://play.minio.io:9000}
+  accesskey: ${MINIO_ASSESSKEY:Q3AM3UQ867SPQQA43P2F}
+  secretkey: ${MINIO_SECRETKEY:zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG}
+  bucket: ${MINIO_BUCKET:tuinetest}
